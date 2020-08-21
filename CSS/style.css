@@ -1,0 +1,50 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    padding:0;
+    margin:0;
+    border:0
+}
+header{
+    background-color: rgb(0, 0, 0);
+}
+#header-logo{
+    width:64px;
+    height:64px;
+}
+#header-msg{
+    font-size: 25px;
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Volkhov', serif;
+    
+}
+
+#header-logo1{
+    width: 210px;
+    margin-left: 20px;
+   
+}
+#btnOne{
+    background-color:rgb(0, 0, 0);
+    color:white;
+}
+#btnOne:focus,#btnOne:hover{
+    box-shadow: none;
+    outline:none;
+    background-color: rgb(224, 44, 74);
+    color: black;
+}
+
+#tableHead{
+    background-color:rgb(0, 0, 0);
+}
+#searchInput{
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    border-bottom: 1px solid #ced4da;
+}
+#searchInput:hover,#searchInput:focus{
+    box-shadow: none;
+    outline:none;
+}
